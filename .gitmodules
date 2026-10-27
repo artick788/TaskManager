@@ -1,0 +1,3 @@
+[submodule "VelyraBuildUtils"]
+	path = VelyraBuildUtils
+	url = https://github.com/VelyraEngine/VelyraBuildUtils.git
