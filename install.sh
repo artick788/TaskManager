@@ -12,4 +12,4 @@ else
 fi
 
 cmake --build build --target TaskManager --parallel
-cmake --install build --prefix ~/.local
+cmake --install build --component TaskManager --prefix ~/.local

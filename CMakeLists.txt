@@ -36,7 +36,9 @@ target_link_libraries(TaskManager PRIVATE VelyraAppFramework)
 target_include_directories(TaskManager PRIVATE src/Shared)
 target_precompile_headers(TaskManager PRIVATE src/Shared/Pch.hpp)
 
+# A component of its own, so installing does not also install the dependencies (GLFW, its docs, ...)
 install(TARGETS TaskManager
     RUNTIME DESTINATION bin
+    COMPONENT TaskManager
 )
 
