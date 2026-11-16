@@ -2,9 +2,6 @@
 
 #include "Widgets.hpp"
 
-#include <algorithm>
-#include <format>
-
 namespace TaskManager::Widgets {
 
     namespace {

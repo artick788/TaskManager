@@ -2,10 +2,6 @@
 
 #include "Store.hpp"
 
-#include <algorithm>
-#include <cctype>
-#include <unordered_set>
-
 namespace TaskManager {
 
     namespace {

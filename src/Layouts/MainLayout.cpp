@@ -3,10 +3,6 @@
 #include "MainLayout.hpp"
 #include "../Widgets/Widgets.hpp"
 
-#include <algorithm>
-#include <cfloat>
-#include <format>
-
 namespace TaskManager {
 
     namespace {

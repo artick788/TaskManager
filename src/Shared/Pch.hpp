@@ -4,3 +4,13 @@
 
 #include <VelyraAppFramework/Styles.hpp>
 #include <VelyraAppFramework/AppData.hpp>
+
+#include <algorithm>
+#include <format>
+#include <cstdlib>
+#include <filesystem>
+#include <fstream>
+#include <chrono>
+#include <cctype>
+#include <unordered_set>
+#include <cfloat>

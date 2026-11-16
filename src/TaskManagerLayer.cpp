@@ -3,7 +3,7 @@
 #include "TaskManagerLayer.hpp"
 #include "Platform/Autostart.hpp"
 
-#include <VelyraAppFramework/Settings.hpp>
+#include <VelyraAppFramework/Settings/Settings.hpp>
 
 namespace TaskManager {
 
