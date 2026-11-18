@@ -3,6 +3,7 @@
 #include <VelyraCore/VelyraCore.hpp>
 
 #include <VelyraAppFramework/Styles.hpp>
+#include <VelyraAppFramework/Themes/Dusk.hpp>
 #include <VelyraAppFramework/AppData.hpp>
 
 #include <algorithm>

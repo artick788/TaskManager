@@ -21,6 +21,8 @@ namespace TaskManager {
     }
 
     void TaskManagerLayer::onAttach() {
+        App::Themes::Dusk::apply(m_AppData.getContext());
+
         loadStore();
         m_Autostart = isAutostartEnabled(APP_NAME);
 
